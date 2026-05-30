@@ -1,0 +1,37 @@
+# ── Node.js ──────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Environment Variables ─────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Database (SQLite runtime file — include in repo) ──────────
+# backend/padel.db   ← uncomment this line to exclude from git
+
+
+# ── Uploads (user-generated files) ───────────────
+backend/uploads/courts/*.jpg
+backend/uploads/courts/*.jpeg
+backend/uploads/courts/*.png
+backend/uploads/courts/*.webp
+# Keep the folder itself
+!backend/uploads/courts/.gitkeep
+
+# ── Build Output ──────────────────────────────────
+frontend/dist/
+frontend/build/
+
+# ── IDE & OS ──────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────
+*.log
+logs/
